@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home - Simple</title>
+</head>
+
+<body>
+    <div class="chat fa fa-brands fa-square-whatsapp animate__animated animate__backInRight" onclick="chat()"></div>
+    <header>
+        <ul class="nav-list animate__animated animate__backInDown">
+            <li class="for-gif">
+                <img src="/assets/gif/tenor.gif">
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class=" nav-icon fa fa-home"></span>
+                    <span class="nav-text">HOME</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-cart-shopping"></span>
+                    <span class="nav-text">PRODUCE</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="category/index.html" class="nav-link">
+                    <span class="nav-icon fa fa-bars"></span>
+                    <span class="nav-text">CATEGORY</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-envelope"></span>
+                    <span class="nav-text">CONTACT</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- section page - product list -->
+        <div class="container">
+            <h2 class="title animate__animated animate__flash">- Product List -</h2>
+            <!-- row - baris -->
+            <div class="row">
+                <!-- column - kolom -->
+                <div class="col animate__animated animate__fadeIn" onclick="buy('baju lebaran', 100000)">
+                    <img src="/assets/images/product-1.jpg" />
+                    <h4 class="name">BAJU LEBARAN</h4>
+                    <p class="name">Rp. 100.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('sepatu jumatan', 125000)">
+                    <img src="/assets/images/product-2.jpg" />
+                    <h4 class="name">SEPATU JUMATAN</h4>
+                    <p class="name">Rp. 125.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('celana tahun baru', 150000)">
+                    <img src="/assets/images/product-3.jpg" />
+                    <h4 class="name">CELANA TAHUN BARU</h4>
+                    <p class="name">Rp. 150.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('baju anak', 175000)">
+                    <img src="/assets/images/product-4.jpg" />
+                    <h4 class="name">BAJU ANAK</h4>
+                    <p class="name">Rp. 175.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('sepatu olahraga', 200000)">
+                    <img src="/assets/images/product-5.jpg" />
+                    <h4 class="name">SEPATU OLAHRAGA</h4>
+                    <p class="name">Rp. 200.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('baju pantai', 225000)">
+                    <img src="/assets/images/product-6.jpg" />
+                    <h4 class="name">BAJU PANTAI</h4>
+                    <p class="name">Rp. 225.000</p>
+                </div>
+            </div>
+            <div class="offer">
+                <div class="small-con">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="offer-img" src="/assets/images/product-exclusive.png">
+                        </div>
+                        <div class="col-2">
+                            <p>JAM TANGAN LIMITED EDITION</p>
+                            <h4>JAM TANGAN ROLEX KW</h4>
+                            <p>jam tangan kesehatan, dengan pergelangan berbahan silicon dan batrai awet sampai 10 tahun pemakaian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <p class="garis">-</p>
+                <h2 class="judul-product animate__animated animate__flash">discount list </h2>
+                <p class="garis">-</p>
+            </div>
+            <div class="row">
+                <div class="col animate__animated animate__fadeIn" onclick="buy('kaos kaki tidur', 250000)">
+                    <img src="/assets/images/product-7.jpg" />
+                    <h4 class="name">KAOS KAKI TIDUR</h4>
+                    <p class="name">Rp. 250.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('bukan jam rolex', 275000)">
+                    <img src="/assets/images/product-8.jpg" />
+                    <h4 class="name">BUKAN JAM ROLEX</h4>
+                    <p class="name">Rp. 275.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('mungkin jam rolex', 300000)">
+                    <img src="/assets/images/product-9.jpg" />
+                    <h4 class="name">MUNGKIN JAM ROLEX</h4>
+                    <p class="name">Rp. 300.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('sepatu olahraga', 325000)">
+                    <img src="/assets/images/product-10.jpg" />
+                    <h4 class="name">SEPATU OLAHRAGA</h4>
+                    <p class="name">Rp. 325.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('sepatu lari', 350000)">
+                    <img src="/assets/images/product-11.jpg" />
+                    <h4 class="name">SEPATU LARI</h4>
+                    <p class="name">Rp. 350.000</p>
+                </div>
+                <div class="col animate__animated animate__fadeIn" onclick="buy('celana anak', 375000)">
+                    <img src="/assets/images/product-12.jpg" />
+                    <h4 class="name">CELANA ANAK</h4>
+                    <p class="name">Rp. 375.000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Metode Pembayaran</h3>
+            <div class="pembayaran">
+                <img>
+                <img>
+                <img>
+                <img>
+            </div>
+            <p>
+                @<span id="year"></span>, CuyStore
+            </p>
+        </div>
+        <div>
+            <div>
+                <i class="fa fa-map"></i>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </footer>
+    <script src="/assets/source.js"></script>
+</body>
+
+</html>
